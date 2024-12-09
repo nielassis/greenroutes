@@ -1,0 +1,12 @@
+GET http://localhost:3000/places?text=quintas do godoy, betim
+
+###
+GET http://localhost:3000/places?text=jardim dos ipes, itabira, mg
+
+###
+@originId = ChIJAX9inSHDpgARY5Z6mPkV2l0
+
+@destinationId = ChIJKa2IbhyhpQARSjjZ7plYtgA
+
+###
+GET http://localhost:3000/directions?originId={{originId}}&destinationId={{destinationId}}
